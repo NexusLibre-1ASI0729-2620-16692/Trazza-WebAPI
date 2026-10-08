@@ -1,0 +1,22 @@
+{
+  "name": "trazza-mock-api",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mock REST API for the Trazza web application built with json-server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --routes routes.json --port 3000"
+  },
+  "keywords": [
+    "json-server",
+    "mock-api",
+    "trazza"
+  ],
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
